@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "bazar",
+    "slug": "bazar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "bazar",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#54408C"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "package": "com.edlavio.bazar"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#54408C"
+      },
+      "package": "com.edlavio.bazar"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/icon2.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
